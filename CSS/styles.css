@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+.container{
+   
+   
+    height: 1000px;
+    background-color: rgb(238, 180, 175);
+    padding: 20px;
+    
+}
+
+header, footer{
+    color: white;
+    text-align: center;
+    background-color: rgb(157, 197, 197);
+    padding: 15px;
+    
+}
+
+h2{
+    font-size: 36px;
+}
+ 
+main{
+   
+    
+    height: 50%;
+    width: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+     
+}
+aside{
+    display: inline-block;
+    background-color: rgb(54, 146, 146);
+    color:white;
+    height: 100%;
+    width: 33%;
+    text-align: center;
+  
+     
+
+}
+
+aside h3{
+    position: relative;
+    top: 50%;
+    font-size: 30px;
+}
+
+article{
+     
+    position: relative;
+    width: 65%;
+   height: 100%;
+   float: right;
+    background-color: salmon;
+    color: white;
+    text-align: center;
+    
+}
+
+.article-title{
+    position: relative;
+    top: 50%;
+    height: 15px;
+    font-size: 30px;
+    
+     
+}
+
+article .img-container{
+    
+  
+    width: 100%;
+    height: 50%;
+    position: relative;
+    top: 50%;
+   
+
+}
+
+.img-container div{
+    display: inline-block;
+    background-color: lightgray;
+    margin-top: 1px;
+    margin-right: 10px;
+    margin-left:10px;
+   position: relative;
+   top: 10%;
+    height: 170px;
+    width: 170px;
+}
+
+.img-container div h3{
+    position: relative;
+    top: 45%;
+    font-size: 24px;
+}
+ 
+
